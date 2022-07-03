@@ -1,0 +1,141 @@
+body {
+  margin: 0px;
+  text-align: center;
+  color: #40514E;
+
+}
+
+h1{
+  font-size: 90px;
+  margin-bottom: 50px;
+  widows: 30px;
+  margin: 50px auto 0 auto;
+  padding-top: 20px;
+  font-family: Sacramento;
+}
+
+.profile-pic{
+  margin-top: 20px;
+}
+
+.skills-icon, .profile-pic{
+  height: 240px;
+  width: 240px;
+  border-radius: 200px;
+}
+
+
+.skills-icon{
+  float: left;
+  margin-right: 50px;
+}
+
+p, ul{
+  font-size: 20px;
+  font-family: arial;
+  line-height: 2;
+}
+
+.top{
+  position: relative;
+  padding: 40px;
+  background-color: #FFE6E6;
+
+}
+
+.top-cloud{
+  position: absolute;
+  left: 900px;
+  top: 100px;
+  height: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  top: 300px;
+  right: 900px;
+  height: 50px;
+}
+
+h1, h2{
+  color: #66BFBF;
+}
+
+h2{
+  margin-top: 5%;
+  font-size: 30px;
+}
+.intro{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+h3, a{
+  color:  #11999E;
+  font-size: 25px;
+  font-family: arial;
+  text-decoration: none;
+}
+
+.mountain{
+
+  top: 700px;
+  right: 400px;
+  height: 300px;
+  width: 500px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 7% auto;
+  text-align: left;
+}
+
+
+hr{
+  border-style: none;
+     border-top-style: dotted;
+     border-color: gray;
+     border-width:5px;
+     height: 2px;
+     width: 5%;
+}
+
+button{
+  background-color:#66BFBF  ;
+  font-weight: bolder;
+  border: none;
+  font-family:  arial;
+  color:  white;
+  font-size: 17px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: .1s;
+  cursor: pointer;
+}
+
+button:hover{
+  font-size: 20px;
+}
+
+a{
+  transition: .1s;
+  cursor: pointer;
+}
+a:hover{
+  color: white;
+}
+
+.bottom-container{
+  padding: 50px 0 20px;
+  background-color: #FFE6E6;
+
+}
+
+
+.footer-link{
+  font-size: 18px;
+  margin-right: 20px;
+}
